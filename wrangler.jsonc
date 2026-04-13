@@ -10,6 +10,10 @@
 		"nodejs_compat",
 		"nodejs_als"
 	],
+	"main": ".svelte-kit/cloudflare/_worker.js",
+	"assets": {
+		"directory": ".svelte-kit/cloudflare"
+	},
 	"pages_build_output_dir": ".svelte-kit/cloudflare",
 
   	"observability": {
