@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="36.963936mm"
+   height="2.4994276mm"
+   viewBox="0 0 36.963936 2.4994276"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7365-2"><path
+         d="M 0,942.06 H 1586.706 V 0 H 0 Z"
+         transform="translate(-182.22233,-37.336876)"
+         id="path7365-7" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7367-0"><path
+         d="M 0,942.06 H 1586.706 V 0 H 0 Z"
+         transform="translate(-192.72233,-37.336876)"
+         id="path7367-3" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7369-1"><path
+         d="M 0,942.06 H 1586.706 V 0 H 0 Z"
+         id="path7369-3" /></clipPath></defs><g
+     id="layer1"
+     transform="translate(-118.00416,-164.83541)"><path
+       id="path7364"
+       d="m 0,0 c -1.957,0 -3.543,-1.586 -3.543,-3.543 0,-1.956 1.586,-3.542 3.543,-3.542 1.957,0 3.543,1.586 3.543,3.542 C 3.543,-1.586 1.957,0 0,0 m 0,-0.25 c 1.816,0 3.293,-1.477 3.293,-3.293 0,-1.815 -1.477,-3.292 -3.293,-3.292 -1.816,0 -3.293,1.477 -3.293,3.292 0,1.816 1.477,3.293 3.293,3.293"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(0.35277776,0,0,-0.35277776,119.25405,164.83542)"
+       clip-path="url(#clipPath7365-2)" /><path
+       id="path7366"
+       d="m 0,0 c -1.957,0 -3.543,-1.586 -3.543,-3.543 0,-1.956 1.586,-3.542 3.543,-3.542 1.957,0 3.543,1.586 3.543,3.542 C 3.543,-1.586 1.957,0 0,0 m 0,-0.25 c 1.816,0 3.293,-1.477 3.293,-3.293 0,-1.815 -1.477,-3.292 -3.293,-3.292 -1.816,0 -3.293,1.477 -3.293,3.292 0,1.816 1.477,3.293 3.293,3.293"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(0.35277776,0,0,-0.35277776,122.95822,164.83542)"
+       clip-path="url(#clipPath7367-0)" /><path
+       id="path7368"
+       d="m 283.459,33.794 h -63.902 v -2.482 h 63.902 z m -0.25,-2.232 h -63.402 v 1.982 h 63.402 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(0.35277776,0,0,-0.35277776,54.970063,178.00704)"
+       clip-path="url(#clipPath7369-1)" /></g></svg>
