@@ -1,42 +1,65 @@
-# sv
+# quarterpie-site
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+SvelteKit site configured for Firebase App Hosting.
 
-## Creating a project
+## Requirements
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Node.js 20+
+- Yarn 1.x
+- Firebase CLI access (`firebase login`)
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Local development
 
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv create --template minimal --types ts --add tailwindcss="plugins:typography" eslint prettier --install yarn quarterpie-site
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install dependencies:
 
 ```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+yarn
 ```
 
-## Building
-
-To create a production version of your app:
+Start dev server:
 
 ```sh
-npm run build
+yarn dev
 ```
 
-You can preview the production build with `npm run preview`.
+## Production build (Firebase runtime parity)
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Build:
+
+```sh
+yarn build
+```
+
+Run the production server locally:
+
+```sh
+yarn start
+```
+
+Or one-shot build + run:
+
+```sh
+yarn preview
+```
+
+## Firebase App Hosting setup
+
+One-time initialization in this repo:
+
+```sh
+yarn firebase:init
+```
+
+That command connects this directory to your Firebase project/backend and updates Firebase metadata files as needed.
+
+## Deploy
+
+```sh
+yarn deploy
+```
+
+If this is your first deploy from this machine, run:
+
+```sh
+firebase login
+```
