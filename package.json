@@ -5,17 +5,17 @@
 	"type": "module",
 	"packageManager": "yarn@1.22.22",
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "yarn run build && node build",
-		"start": "node build",
-		"prepare": "svelte-kit sync || echo ''",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write .",
-		"firebase:init": "npx firebase-tools init apphosting",
-		"deploy": "npx firebase-tools deploy --only apphosting"
+	    "dev": "vite dev",
+	    "build": "vite build",
+	    "preview": "yarn run build && node app-build/index.js",
+	    "start": "node app-build/index.js",
+	    "prepare": "svelte-kit sync || echo ''",
+	    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+	    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+	    "lint": "prettier --check . && eslint .",
+	    "format": "prettier --write .",
+	    "firebase:init": "npx firebase-tools init apphosting",
+	    "deploy": "npx firebase-tools deploy --only apphosting"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^2.0.1",
