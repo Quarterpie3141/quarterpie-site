@@ -6,7 +6,9 @@ runConfig:
   # concurrency: 80
   # cpu: 1
   # memoryMiB: 512
-
+scripts:
+  buildCommand: yarn run build
+  runCommand: node build/index.js
 # Environment variables and secrets.
 # env:
   # Configure environment variables.
