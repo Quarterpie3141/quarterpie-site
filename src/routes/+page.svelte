@@ -1,9 +1,12 @@
 <div class="flex flex-col md:flex-row justify-between">
     <div class="ml-8 mt-8 w-max text-white leading-tight">
         <h1 class="mb-0 text-4xl leading-tight">Quarterpie</h1>
-        <div class="flex w-full justify-between mb-1.5">
+        <div class="flex w-full justify-between mb-1.5 gap-6">
             <h2 class="text-xl leading-none">PER  AUS</h2>
-            <h2 class="text-xl leading-none">/about</h2>
+            <div class="flex items-center gap-4">
+                <a class="text-xl leading-none underline-offset-2 hover:underline" href="/about">/about</a>
+
+            </div>
         </div>
         <div class="flex w-full justify-between mb-1">
             <h2 class="text-xl leading-none">Quarterpie</h2>
@@ -16,8 +19,8 @@
                 alt="Quarterpie Labs Logo"
             />
             <div class="leading-none">
-                <h5 class="text-md mb-0.5">things</h5>
-                <h5 class="text-md mb-0.5">made</h5>
+                <h5 class="text-md mb-0.5">creativity</h5>
+                <h5 class="text-md mb-0.5">engineered</h5>
                 <h5 class="text-md mb-0.5">8906.96050</h5>
             </div>
         </div>
@@ -26,7 +29,7 @@
 
     <div class="text-white ml-8 mr-8 md:ml-0 md:mr-8 mt-16 w-auto md:w-1/4 md:max-w-96 md:min-w-96 md:mt-8">
         <div class="h-1 bg-white mb-5"></div>
-        <div class="flex justify-between items-center mb-6">
+        <a class="flex justify-between items-center mb-6" href="/about">
             <div>
                 <h2 class="text-xl leading-tight">About</h2>
                 <h2 class="text-4xl leading-none">Me</h2>
@@ -38,7 +41,21 @@
                     alt="About Me"
                 />
             </div>
-        </div>
+        </a>
+        <div class="h-1 bg-white mb-5"></div>
+        <a class="flex justify-between items-center mb-6" href="/projects">
+            <div>
+                <h2 class="text-xl leading-tight">Project</h2>
+                <h2 class="text-4xl leading-none">Showcase</h2>
+            </div>
+            <div class="">
+                <img
+                    class="w-12 h-12"
+                    src="/branding/m86.svg"
+                    alt="Projects"
+                />
+            </div>
+        </a>
         <div class="h-1 bg-white mb-5"></div>
         <div class="flex justify-between items-center mb-6">
             <div>
@@ -50,20 +67,6 @@
                     class="w-12 h-12"
                     src="/branding/logo_white.png"
                     alt="Quarterpie Labs Logo"
-                />
-            </div>
-        </div>
-        <div class="h-1 bg-white mb-6"></div>
-        <div class="flex justify-between items-center mb-6">
-            <div>
-                <h2 class="text-xl leading-tight">Fido</h2>
-                <h2 class="text-4xl leading-none">M.86</h2>
-            </div>
-            <div class="">
-                <img
-                    class="w-12 h-12"
-                    src="/branding/m86.svg"
-                    alt="Fido M.86"
                 />
             </div>
         </div>
